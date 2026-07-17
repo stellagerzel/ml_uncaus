@@ -59,12 +59,13 @@ Variable con mayor importancia individual: **materia** y **cohorte** en P3 (aban
 │   ├── 04_GridSearch.ipynb           ← ajuste de hiperparámetros
 │   ├── 05_Importancia.ipynb          ← importancia de variables
 │   └── 06_Umbral.ipynb               ← ajuste de umbral de decisión
-├── data/
-│   └── dataset_unificado_UNCAus.xlsx ← dataset anonimizado (978 registros)
 ├── informe/
 │   └── Informe_Final_ML_UNCAus.docx  ← informe complementario
 └── README.md
 ```
+
+> **Nota**: el dataset no se incluye en el repositorio por contener información institucional.
+> Los notebooks solicitan los archivos de datos al momento de ejecutarse.
 
 ---
 
@@ -93,25 +94,11 @@ Se adoptó el marco **CRISP-DM** (Cross Industry Standard Process for Data Minin
 
 ---
 
-## Cómo ejecutar los notebooks
-
-1. Abrir el notebook en [Google Colab](https://colab.research.google.com)
-2. Ejecutar **Entorno de ejecución → Ejecutar todo** (`Ctrl+F9`)
-3. Cuando aparezca el botón de carga de archivos, seleccionar los 4 archivos Excel originales
-4. Los notebooks se ejecutan de forma independiente — cada uno carga los datos desde cero
-
-> Los notebooks fueron desarrollados y probados en Google Colab con Python 3.12.
-
----
-
 ## Dataset
 
 El dataset proviene de relevamientos institucionales de UNCAus mediante el sistema SIU-Guaraní.
 El acceso fue provisto por Stella Gerzel en su carácter de docente de la institución.
-
-Los datos fueron anonimizados antes de ser incorporados al repositorio:
-el identificador de alumno (legajo numérico) fue reemplazado por un código hash unidireccional.
-No se incluyen nombres, DNI ni ningún otro identificador personal directo.
+Por tratarse de datos institucionales, no se incluyen en el repositorio.
 
 ---
 

@@ -1,0 +1,20 @@
+# Archivos temporales de Python
+__pycache__/
+*.py[cod]
+
+# Archivos temporales de Jupyter
+.ipynb_checkpoints/
+
+# Entornos virtuales y variables privadas
+venv/
+.venv/
+.env
+
+# Archivos del sistema
+Thumbs.db
+.DS_Store
+
+# Dataset original o confidencial
+data/*.xlsx
+data/*.xls
+data/*.csv
